@@ -2,7 +2,8 @@
   "name": "inevent-hackathon-backend",
   "version": "1.0.0",
   "description": "Backend repository for hackathon hosted by inevent.",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "engines": {"node": ">=16"},
   "scripts": {
     "build": "babel --extensions .ts ./src -d ./dist",
     "dev": "ts-node src/index.ts",
