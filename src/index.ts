@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 
 app.get('/healthCheck', (req, res) => {
     res.send({message: "Hello World"});
